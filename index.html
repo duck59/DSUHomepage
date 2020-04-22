@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>동신대학교</title>
+    <style>
+    h1{
+      text-align: center;
+      border-bottom:1px solid black;
+      padding: 10px;
+      margin: 0px;
+    }
+    #icon{
+      display:grid;
+      grid-template-columns:100px 100px 100px;
+      text-align:center;
+      color:white;
+      text-decoration: none;
+      margin:0;
+    }
+    .top-left{
+      padding-left:10px;
+    }
+    body{
+      background-color: white;
+    }
+    .top{
+      background-color:#555555;
+    }
+    </style>
+    <link rel="stylesheet" href="img.css">
+    <script src="img.js"></script>
+
+  </head>
+
+  <body>
+    <div class="top">
+      <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="notice1.png" style="width:80%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="notice2.png" style="width:80%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="notice3.png" style="width:80%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+
+
+
+      <div class="top-left">
+        <div id="icon">
+          <div style="background-color:white">
+          <a href="index.html">
+            <img src="DsuLogo.png" width="30" style="background-color:white;">
+          </a>
+        </div>
+        <div style="background-color:#1C76D4">
+          <a href="입학.html" target="_blank" title="새창열림" style="color:white; text-decoration:none;">입학</a>
+        </div>
+        <div style="background-color:#139DB8">
+          <a href="취업정보.html" target="_blank" title="새창열림" style="color:white; text-decoration:none;">취업정보</a>
+        </div>
+      </div>
+      </div>
+
+  </body>
+</html>
